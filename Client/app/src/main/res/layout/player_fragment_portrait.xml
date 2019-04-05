@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="#fbe3d1">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="141dp"
+            android:layout_height="339dp"
+            android:id="@+id/linearLayout3"
+            android:baselineAligned="false"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.5">
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/btnVolUp"
+                    android:layout_weight="0.45" android:backgroundTint="@color/ColorButton"
+                    android:textSize="36sp"
+                    android:maxLines="1" android:background="@drawable/ic_volume_up_black_24dp"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/btnVolDn"
+                    android:layout_weight="0.45" android:backgroundTint="@color/ColorButton"
+                    android:textSize="36sp"
+                    android:maxLines="1" android:background="@drawable/ic_volume_down_black_24dp"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/btnMute"
+                    android:layout_weight="0.45" android:backgroundTint="@color/ColorButton"
+                    android:textSize="36sp"
+                    android:maxLines="1" android:background="@drawable/ic_volume_off_black_24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="268dp"
+            android:layout_height="74dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/linearLayout2" android:layout_marginTop="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnBwd" android:layout_weight="1"
+                android:backgroundTint="@color/ColorMedia"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnFwd" android:layout_weight="1"
+                android:backgroundTint="@color/ColorMedia"/>
+    </LinearLayout> -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout5" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnPrev" android:layout_weight="1"
+                android:backgroundTint="@color/ColorMedia" android:background="@drawable/ic_skip_previous_black_24dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnPlay" android:layout_weight="1"
+                android:backgroundTint="@color/ColorMedia" android:background="@drawable/ic_play_arrow_black_24dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnNext" android:layout_weight="1"
+                android:backgroundTint="@color/ColorMedia"
+                android:background="@drawable/ic_skip_next_black_24dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

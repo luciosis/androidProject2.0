@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id= "@+id/playerTab"
+          android:icon="@drawable/ic_audiotrack_black_24dp"
+          android:title="@string/player_menu" />
+    <item android:id="@+id/mouseTab"
+          android:icon="@drawable/ic_mouse_black_24dp"
+          android:title ="@string/mouse_menu"/>
+    <item android:id="@+id/keyboardTab"
+          android:icon="@drawable/ic_keyboard_black_24dp"
+          android:title = "@string/keyboard_menu"/>
+</menu>

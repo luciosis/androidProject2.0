@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Klient</string>
+    <string name="action_connect">Opret</string>
+    <string name="IP_Address">0.0.0.0</string>
+    <string name="player_menu">Medier</string>
+    <string name="mouse_menu">Mus</string>
+    <string name="keyboard_menu">Tastatur</string>
+    <string name="connected">Forbundet</string>
+    <string name="connection_failed">Kunne ikke forbinde til server</string>
+</resources>

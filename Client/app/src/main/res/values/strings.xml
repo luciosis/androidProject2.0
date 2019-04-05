@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Client</string>
+    <string name="action_connect">connect</string>
+    <string name="IP_Address">0.0.0.0</string>
+    <string name="player_menu">Media</string>
+    <string name="mouse_menu">Mouse</string>
+    <string name="keyboard_menu">Keyboard</string>
+    <string name="connected">connected</string>
+    <string name="connection_failed">connection failed</string>
+</resources>
